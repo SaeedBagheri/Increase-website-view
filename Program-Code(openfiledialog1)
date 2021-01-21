@@ -1,0 +1,9 @@
+openFileDialog1.Filter = "TXT Files | *.txt";
+            if (openFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                string fileName = openFileDialog1.FileName;
+                textBox2.Text = openFileDialog1.SafeFileName;
+                textBox3.Text = File.ReadAllText(@fileName);
+                textBox3.Refresh();
+                button1.Focus();
+            }
