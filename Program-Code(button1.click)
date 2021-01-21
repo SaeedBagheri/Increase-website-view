@@ -1,0 +1,24 @@
+ok = no = 0;
+            String ip;
+            int port;
+            if (textBox3.Lines.Length < 1)
+            {
+                MessageBox.Show("بدون پروکسی لیست دقیقا میخوای چیکار کنی؟؟؟");
+            }
+            else
+            {
+                button1.Enabled = false;
+                foreach (String i in textBox3.Lines)
+                {
+                    try
+                    {
+                        String[] tab = i.Split(':');
+                        port = int.Parse(tab[1]);
+                        ip = tab[0];
+                        scc(ip, port);
+                    }
+                    catch { }
+                }
+                
+                button1.Enabled = true;
+}
