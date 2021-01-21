@@ -23,13 +23,13 @@
           content="{{$setting->description}}"
           data-react-helmet="true">
     <meta property="twitter:title"
-          content=" بازدید سایت رو خیلی راحت بالا ببر و بیا صفحه اول گوگل. افزایش رتبه گوگل و کاهش رتبه الکسا صد در صد تضمینی   "
+          content=" افزایش بازدید سایت از طریق لینک  "
           data-react-helmet="true">
     <meta property="og:description"
           content="{{$setting->description}}"
           data-react-helmet="true">
     <meta property="og:title"
-          content=" بازدید سایت رو خیلی راحت بالا ببر و بیا صفحه اول گوگل. افزایش رتبه گوگل و کاهش رتبه الکسا صد در صد تضمینی   "
+          content=" افزایش بازدید سایت از طریق لینک   "
           data-react-helmet="true">
     <meta name="description"
           content="{{$setting->description}}"
